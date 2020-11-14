@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Spyder Notepad</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-vlOMx0hKjUCl4WzuhIhSNZSm2yQCaf0mOU1hEDK/iztH3gU4v5NMmJln9273A6Jz" crossorigin="anonymous">
+    <link rel="stylesheet" href="myproject.css">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Spyder</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="loginme.html">Log in</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="signup.html">Sign up</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="toolbar">
+<ul class="tool-list">
+  <li class="tool">
+    <button
+      type="button"
+      data-command='justifyLeft'
+      class="tool--btn">
+      <i class=' fas fa-align-left'></i>
+    </button>
+  </li>
+  <li class="tool">
+    <button
+      type="button"
+      data-command='justifyCenter'
+      class="tool--btn">
+      <i class=' fas fa-align-center'></i>
+    </button>
+  </li>
+  <li class="tool">
+    <button
+      type="button"
+      data-command="bold"
+      class="tool--btn">
+      <i class=' fas fa-bold'></i>
+    </button>
+  </li>
+  <li class="tool">
+    <button
+      type="button"
+      data-command="italic"
+      class="tool--btn">
+      <i class=' fas fa-italic'></i>
+    </button>
+  </li>
+  <li class="tool">
+    <button
+      type="button"
+      data-command="underline"
+      class="tool--btn">
+      <i class=' fas fa-underline'></i>
+    </button>
+  </li>
+  <li class="tool">
+    <button
+      type="button"
+      data-command="insertOrderedList"
+      class="tool--btn">
+      <i class=' fas fa-list-ol'></i>
+    </button>
+  </li>
+  <li class="tool">
+    <button
+      type="button"
+      data-command="insertUnorderedList"
+      class="tool--btn">
+      <i class=' fas fa-list-ul'></i>
+    </button>
+  </li>
+  <li class="tool">
+    <button
+      type="button"
+      data-command="createlink"
+      class="tool--btn">
+      <i class=' fas fa-link'></i>
+    </button>
+  </li>
+</ul>
+</div>
+
+<div id="output" contenteditable="true"></div>
+  </div>
+<script src="myproject.js"></script>
+  </body>
+</html>
